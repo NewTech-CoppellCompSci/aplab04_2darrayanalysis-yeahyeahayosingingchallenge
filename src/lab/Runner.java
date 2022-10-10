@@ -4,9 +4,13 @@ public class Runner {
 
 	public static void main(String[] args) {
 		
+		System.out.println("Hello ArrayAnalysis");
+		
 		ArrayAnalysis analysis = new ArrayAnalysis();
 		
-		int[][] arr1 = analysis.createRandom(6, 3, -2, 10);
+		
+		ArrayAnalysis.printArray(analysis.createRandom(8, 4, 0,9));
+		
 		
 		
 		
